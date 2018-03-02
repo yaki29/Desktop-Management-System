@@ -1,5 +1,5 @@
 # Desktop-Management-System
-#### Cleans your System in a go and tells you which are the large file that should be removed
+#### Cleans your System in a go and tells you which are the large files that should be removed
 
 Language Used: Python
 
@@ -19,5 +19,5 @@ Task2
 * Separate the file extensions from their names and make directories of them.
 * Now move the files with extensions as their destination directories.
 
-Testing:
+### Testing:
 I have tested it on Linux(Ubuntu 16.04), but I think it would work with every operating system.
