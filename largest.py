@@ -5,8 +5,8 @@ for path, dnames, fnames in os.walk('directory'):	# os.walk() uses BFS to traver
 	for x in fnames:								# Enter the address of the directory to be traversed
 		temp = []
 		temp.append(os.path.getsize(os.path.join(path, x))/(1024*1024))	# appends files' sizes (Bytes -> MB)
-		temp.append(x)	
-		temp.append(path)											# appends files' names
+		temp.append(x)				# appends files' names
+		temp.append(path)			# appends files' addresses
 		files.append(temp)
 
 files.sort(reverse=True)	# sort in decreasing order
